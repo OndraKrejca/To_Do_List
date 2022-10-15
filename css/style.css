@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #ebf6fa;
+}
+
+body .container {
+  margin: 5rem auto;
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #ffff;
+  -webkit-box-shadow: 2.5px 2.5px 10px #8b8b8b;
+          box-shadow: 2.5px 2.5px 10px #8b8b8b;
+}
+
+body .container .c-item_alert {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+body .container .alert_danger {
+  background-color: red;
+}
+
+body .container .alert_sucess {
+  background-color: #8de68d;
+}
+
+body .container h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+}
+
+body .container .c-form {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+body .container .c-form #grocery {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #e9e3e3;
+  border: none;
+  padding: 0.8rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  outline: none;
+}
+
+body .container .c-form input[type=text]:focus {
+  border: 2px solid #ccc;
+}
+
+body .container .c-form .c-form--btn {
+  -webkit-box-flex: 0.3;
+      -ms-flex: 0.3;
+          flex: 0.3;
+  border: none;
+  background-color: #65659c;
+  color: #ffff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+
+body .container .c-form .c-form--btn:hover {
+  background-color: #46466e;
+}
+
+body .container .grocery__container {
+  margin-top: 2rem;
+  visibility: hidden;
+}
+
+body .container .grocery__container .c-items__item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 86% 7% 7%;
+      grid-template-columns: 86% 7% 7%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+body .container .grocery__container .c-items__item:hover {
+  background-color: #f0e6e6;
+}
+
+body .container .grocery__container .c-items__item .title {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+}
+
+body .container .grocery__container .c-items__item a .fa-pen-to-square {
+  color: #48be48;
+}
+
+body .container .grocery__container .c-items__item a .fa-pen-to-square:hover {
+  color: darkgreen;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+body .container .grocery__container .c-items__item a .fa-trash-can {
+  color: red;
+}
+
+body .container .grocery__container .c-items__item a .fa-trash-can:hover {
+  color: darkred;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+body .container .grocery__container .clear__items {
+  color: red;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  display: block;
+}
+
+body .container .grocery__container__show {
+  visibility: visible;
+}
+/*# sourceMappingURL=style.css.map */
